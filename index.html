@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Genius</title>
+  <!-- tailwind and daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-8">
+  <header>
+
+  </header>
+  <!-- main content here  -->
+  <main>
+    <div class="flex flex-col md:flex-row">
+      <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <!-- Shape Card Container -->
+         <!-- Triangle -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/triangle.png"
+              alt="Shoes"
+              class="" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Triangle</h2>
+            <p>Area = 0.5 X b X h</p>
+            <div>
+              <input class="w-24 text-2xl p-2 rounded-sm" type="text" id="triangle-base" placeholder="b">
+              <span class="mr-4 ml-2">cm</span>
+              <input class="w-24 text-2xl p-2 rounded-sm"  type="text" id="triangle-height" placeholder="h">
+              <span>cm</span>
+            </div>
+            <div>
+              <p class="text-2xl">Area: <span id="triangle-area"></span> <span>cm <sup>2</sup> </span></p>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary w-full" onclick="calculateTriangleArea()">Calculate</button>
+            </div>
+          </div>
+        </div>
+         <!-- Shape Card Container -->
+         <!-- Rectangle -->
+         <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/rectangle.png"
+              alt="Shoes"
+              class="" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Rectangle</h2>
+            <p>Area = w X l </p>
+            <div>
+              <input class="w-24 text-2xl p-2 rounded-sm" type="text" id="rectangle-width" placeholder="w">
+              <span class="mr-4 ml-2">cm</span>
+              <input class="w-24 text-2xl p-2 rounded-sm"  type="text" id="rectangle-length" placeholder="l">
+              <span>cm</span>
+            </div>
+            <div>
+              <p class="text-2xl">Area: <span id="rectangle-area"></span> <span>cm <sup>2</sup> </span></p>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary w-full" onclick="">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <!-- Shape Card Container -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Shape Card Container -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Shape Card Container -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Shape Card Container -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="w-96 border-2 border-gray-700 rounded-md">
+        <h3 class="text-3xl text-center p-4">Area Calculation</h3>
+      </div>
+
+    </div>
+  <script src="scripts/triangle.js"></script>
+
+  </main>
+  
+</body>
+</html>
