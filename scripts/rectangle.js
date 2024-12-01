@@ -9,24 +9,26 @@
 
 
 
- function calculaterectangleArea(){
-  // get width value of the reactangle
-  const rectangleWidthInput = document.getElementById('rectangle-width')
-  const rectangleWidthText = rectangleWidthInput.value;
-  const width = parseFloat(rectangleWidthText);
-  // console.log(width);
-  // get the length value of the rectangle
-  const rectangleLengthInput = document.getElementById('rectangle-length');
-  const rectangleLengthText = rectangleLengthInput.value;
-  const length = parseFloat(rectangleLengthText);
-  // console.log(length);
-  const area = width * length;
-  const rectangleArea = document.getElementById('rectangle-area');
-  rectangleArea.innerText = area;
-  // console.log(area);
+//  function calculaterectangleArea(){
+//   // get width value of the reactangle
+//   const rectangleWidthInput = document.getElementById('rectangle-width')
+//   const rectangleWidthText = rectangleWidthInput.value;
+//   const width = parseFloat(rectangleWidthText);
+//   // console.log(width);
+//   // get the length value of the rectangle
+//   const rectangleLengthInput = document.getElementById('rectangle-length');
+//   const rectangleLengthText = rectangleLengthInput.value;
+//   const length = parseFloat(rectangleLengthText);
+//   // console.log(length);
+//   // calculate rectangle area
+//   const area = width * length;
+//   // display rectangle area
+//   const rectangleArea = document.getElementById('rectangle-area');
+//   rectangleArea.innerText = area;
+//   // console.log(area);
   
   
   
   
-}
+// }
 
